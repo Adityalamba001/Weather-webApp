@@ -114,7 +114,7 @@ const App = () => {
                     &deg;{unit}
 
                 </button>
-
+                
               </div>
               <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description}
               className='mx-auto my-4 animate-bounce'/>
